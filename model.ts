@@ -11,4 +11,4 @@ const fileSchema = new mongoose.Schema({
     size: { required: true, type: Number } //sizeInKb
 });
 
-export const fileModel = mongoose.model("FilesCollectionMetaData", fileSchema);
+export const fileModel = mongoose.model("bucket", fileSchema);
